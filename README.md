@@ -4,7 +4,7 @@ My custom thme for `tmux` using Flat UI colors
 
 Detailed notes on how to customize a tmux theme [here](https://tldr-link)
 
-![Screenshot - Tmux Flat Theme](https://github.com/aamnah/tmux-flat-theme/blob/master/screenshots/flattheme-preview.png)
+![Screenshot - Tmux Flat Theme](https://github.com/aamnah/tmux-flat-theme/blob/master/screenshots/flattheme.png)
 
 ```bash
 # Colors used 
