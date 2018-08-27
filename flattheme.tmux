@@ -1,7 +1,9 @@
 #!/bin/bash
 
+CURRENT_DIR="$(cd "$( dirname "${BASH_SOURCE[0]}")" && pwd )"
+
 main () {
-	tmux source-file "${HOME}/.tmux/flattheme.conf'
+	tmux source-file "${CURRENT_DIR}/flattheme.conf"
 }
 
 main
