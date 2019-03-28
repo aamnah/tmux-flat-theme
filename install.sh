@@ -22,12 +22,12 @@ install ()  {
 	
 	# Make directory `~/.tmux` if one doesn't exist
 	if ! [ -d ${HOME}/.tmux ]; then # (-d: file exists and is a dir)
-		echo -e "\n Creating ~/.tmux/ ..."
+		echo -e "\n Creating ~/.tmux/ ... \n"
 		mkdir ${HOME}/.tmux
 	fi
 	
 	# Copy the theme file from this folder to `~/.tmux`
-	echo -e "\n Copying theme to ~/.tmux/ ..."
+	echo -e "\n Copying theme to ~/.tmux/ ... \n"
 	cp ./flattheme.tmux ${HOME}/.tmux/
 	cp ./flattheme.conf ${HOME}/.tmux/
 	
@@ -37,16 +37,16 @@ install ()  {
 	
 	# Create `~/.tmux.conf` if one doesn't exist
 	if ! [ -e ${HOME}/.tmux.conf ]; then # (-e: file exists)
-		echo -e "\n Creating ~/.tmux.conf file ..."
+		echo -e "\n Creating ~/.tmux.conf file ... \n"
 		touch ${HOME}/.tmux.conf
 	fi
 	
 	# Source the copied theme file in `~/.tmux` inside `~/.tmux.conf`
-	echo -e "\n Adding theme to ~/.tmux.conf ..."
+	echo -e "\n Adding theme to ~/.tmux.conf ... \n"
 	echo -e "run '${HOME}/.tmux/flattheme.tmux'" >> ${HOME}/.tmux.conf
 	
 	# SUCCESS
-	echo -e "\n DONE !"
+	echo -e "\n DONE ! \n"
 	
 }
 
