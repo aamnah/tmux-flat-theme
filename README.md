@@ -1,6 +1,10 @@
 # tmux Flat Theme
 
-My custom thme for `tmux` using Flat UI colors
+My custom thme for `tmux` using Flat UI colors. Install:
+
+```bash
+curl https://raw.githubusercontent.com/aamnah/tmux-flat-theme/master/install_remote.sh | bash
+```
 
 Detailed notes on how to customize a tmux theme [here](https://tldr-link)
 
@@ -39,7 +43,7 @@ TODO
 
 - [ ] Add CPU load and RAM info to `status-right` [example](https://github.com/srathbone/tmux-arc-theme-config)
 - [x] Show current working directory with window title in status bar [example](https://github.com/eendroroy/tmux-simple-theme)
-- [ ] Edit the current directory path to only show the current folder instead of the entore path
+- [ ] Edit the current directory path to only show the current folder instead of the entire path
 - [x] Make the theme self-conatined. Save it as a separate file and load from `~/.tmux.conf`
 - [x] include an install script
 - [x] style the clock (`clock-mode-colour` and `clock-mode-style`)
