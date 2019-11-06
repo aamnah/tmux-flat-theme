@@ -3,6 +3,8 @@
 My custom thme for `tmux` using Flat UI colors. Install:
 
 ```bash
+#sudo apt install curl
+#sudo apt install -y tmux
 curl https://raw.githubusercontent.com/aamnah/tmux-flat-theme/master/install_remote.sh | bash
 ```
 
