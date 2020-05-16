@@ -14,6 +14,10 @@ Detailed notes on how to customize a tmux theme [here](https://tldr-link)
 
 ![Screenshot - Tmux Flat Theme](https://github.com/aamnah/tmux-flat-theme/blob/master/screenshots/flattheme.png)
 
+![Screenshot - Tmux Flat Theme (Monitoring tools)](https://github.com/aamnah/tmux-flat-theme/blob/master/screenshots/Screenshot%20from%202020-05-13%2000-19-08.png?raw=true)
+
+
+
 ```bash
 # Colors used 
 
