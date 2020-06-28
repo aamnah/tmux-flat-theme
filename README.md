@@ -3,7 +3,7 @@
 My custom thme for `tmux` using Flat UI colors. Install:
 
 ```bash
-sudo apt install -y curl tmux
+sudo apt install -y curl tmux xclip
 ```
 
 ```bash
